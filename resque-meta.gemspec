@@ -1,4 +1,5 @@
-require 'lib/resque/plugins/meta/version'
+$LOAD_PATH.unshift 'lib'
+require 'resque/plugins/meta/version'
 
 Gem::Specification.new do |s|
   s.name              = "resque-meta"
